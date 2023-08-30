@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #5F634F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #DBEFBC;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #DBEFBC;
+  padding: 50px;
+  min-height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  color: #f2f2f2;
+  background-color: #5F634F;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+/* css file inspired by https://www.w3schools.com/css/tryit.asp?filename=trycss_template3 */
